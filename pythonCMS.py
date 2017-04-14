@@ -5,7 +5,7 @@ print('Welcome to pythonCMS, the simplest CMS in the universe!')
 slug = input('Enter url slug (e.g. "my-awesome-post"): ')
 title = input('Enter title of your post: ')
 description = input('Enter description of post: ')
-blogFilename = input('Enter filename of blog (e.g.: draft.html): ')
+blogFilename = input('Enter filename of blog draft (e.g.: draft.html or example.html): ')
 
 #build file paths
 blogFileLocation = os.path.join("drafts/drafts/", blogFilename)
